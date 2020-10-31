@@ -1,0 +1,61 @@
+.movies-container {
+  margin-top: 50px;
+}
+
+.category {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+.category p {
+  margin-right: 30px;
+  font-size: 1.3em;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-bottom: 4px solid #f3f9fb;
+}
+.category :hover {
+  border-bottom: 4px solid #ffc048;
+}
+
+.movie-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 0;
+  margin: 0 200px;
+}
+
+.movie {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.movie img {
+  width: 100%;
+  height: 100%;
+}
+
+.movie:hover {
+  transform: scale(1.1);
+  z-index: 3;
+  transition: 1s;
+}
+
+#active {
+  border-bottom: 4px solid #ffc048;
+}
+
+.movie i {
+  color: red;
+  font-size: 1.5em;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.movie i:hover {
+  transform: scale(1.3);
+}

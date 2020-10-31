@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc048;
+  color: white;
+  padding: 10px 120px;
+}
+
+.navbar h1 {
+  letter-spacing: 0.1em;
+}
+
+.navbar > div {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.user {
+  border: 1px solid #ffdd59;
+  color: black;
+  background-color: #ffdd59;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.navbar select {
+  background-color: #ffc048;
+  color: white;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.navbar select:focus {
+  outline: none;
+}
+
+.navbar select option {
+  background-color: white;
+  color: #ffc048;
+}
+
+.signin,
+.signup {
+  border: 1px solid white;
+  padding: 5px 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.signin:hover,
+.signup:hover {
+  background-color: white;
+  color: #ffc048;
+}
+
+.signup {
+  margin-right: 20px;
+}
+
+.userOptions {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  color: black;
+  border: 1px solid black;
+  background-color: #f4f4f2;
+  border-radius: 5px;
+}
+
+.userOptions p {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.userOptions p:nth-of-type(odd) {
+  border-bottom: 1px solid black;
+}
+
+.userOptions p:hover {
+  background-color: #ffc048;
+  color: white;
+}

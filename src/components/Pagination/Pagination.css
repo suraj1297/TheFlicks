@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  overflow-x: scroll;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.page {
+  padding: 20px;
+  background-color: #fff8cd;
+  cursor: pointer;
+}
+
+.page:hover {
+  background-color: #ffc048;
+}
+
+.pagination::-webkit-scrollbar {
+  height: 0.5em;
+}
+
+.pagination::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 20px;
+}
+
+#active-page {
+  background-color: #ffc048;
+}

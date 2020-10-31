@@ -1,0 +1,56 @@
+.slider-container {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 130px;
+  margin-bottom: 0;
+}
+
+.slider-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.slider-container h3 {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  height: 300px;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.media-tile {
+  position: relative;
+}
+
+.media-tile img {
+  height: 40vh;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.media-tile img:hover {
+  position: relative;
+  transform: scale(1.1);
+  transition: 0.5s;
+  z-index: 5;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.show-more {
+  cursor: pointer;
+}
+
+.show-more:hover {
+  border-bottom: 5px solid #ffc048;
+}
