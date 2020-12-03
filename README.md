@@ -16,7 +16,7 @@ user can search for media of all the above languages.
 
 # Home
 
-![Images](/screemshots/home.png)
+![Images](/screenshots/home.png)
 
 Under home page user can get quick glance if Trending shows, Movies, and TvShows.
 
