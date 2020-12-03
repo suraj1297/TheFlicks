@@ -20,19 +20,19 @@ user can search for media of all the above languages.
 
 Under home page user can get quick glance if Trending shows, Movies, and TvShows.
 
-#Movies
+# Movies
 
 ![Images](/screenshots/home.png)
 
 Under movies page user can get scroll throw all the movies.
 
-#Movies
+# Tv Shows
 
 ![Images](/screenshots/tv.png)
 
 Under tv shows page user can get scroll throw all the tv shows.
 
-#Overview
+# Overview
 
 ![Images](/screenshots/detail.png)
 
